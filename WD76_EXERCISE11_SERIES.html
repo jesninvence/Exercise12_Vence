@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Series</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+        <!-- You can add fixed-top, fixed-bottom, sticky-top, sticky-bottom -->
+        <div class="container-fluid">
+            <!-- Navigation Title-->
+            
+            <a class="navbar-brand text-danger" href="">
+                Netflix
+            </a>
+            <!-- Navigation Title -->
+            <!-- Navigation Button-->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Button -->
+
+            <!-- Navigation List -->
+            <div class="collapse navbar-collapse" id="navigationExercise10">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownSample" data-bs-toggle="dropdown">Movies</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="WD76_EXERCISE11_ACTION.html" class="dropdown-item">Action</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE11_HORROR.html" class="dropdown-item">Horror</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE11_COMEDY.html" class="dropdown-item">Comedy</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE11_SERIES.html" class="dropdown-item">Series</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">K-Drama</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Kids</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navigation List -->
+        </div>
+    </nav>
+
+
+    <div id="carouselSample" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators-->
+        <div class="carousel-indicators">
+            <buttn  data-bs-target="#carouselSample" data-bs-slide-to="0" class="active">
+
+            </buttn>
+            <buttn  data-bs-target="#carouselSample" data-bs-slide-to="1">
+
+            </buttn>
+            <!-- in programing we always count starting from 0 -->
+            <!-- data-bs-slide-to refers to the image that it will redirect -->
+            <!-- class active will be put in the active slide -->
+        </div>
+        <!-- Carousel indicators-->
+        <!-- carousel body -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/n9.gif" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Series</h3>
+                    <p>Queen's Gambit & Money Heist</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/s4.gif" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Series</h3>
+                    <p>Queen's Gambit & Money Heist</p>
+                </div>
+            </div>
+        </div>
+        <!-- It is important to set which carousel item is active -->
+        <!-- carousel body -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <div class="container my-5">
+        <!-- mx - padding for left and right -->
+        <!-- my - padding for top and bottom -->
+        <h1 class="text-danger">TV Series</h1>
+        <br/>
+        <div class="row g-3">
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <img src="img/firefly.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Firefly Lane</h5>
+                        <p class="card-text text-white">Firefly Lane is an American drama streaming television series created by Maggie Friedman for Netflix. 
+                            The series is based on the novel of the same name by Kristin Hannah.[1] The series premiered on February 3, 2021,[2] and navigates the lives of two teenage girls in the 1970s, all the way through to their adulthood in the mid 2000s. In May 2021, the series was renewed for a second season.
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <img src="img/obsession.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Obsession</h5>
+                        <p class="card-text text-white">Obsession is a British thriller television miniseries co-written by Morgan Lloyd Malcolm and Benji Walters, based on the novel Damage (1991) by Josephine Hart. Starring Charlie Murphy, Richard Armitage, Indira Varma and Sonera Angel, the series was released on 
+                            Netflix on 13 April 2023.
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <img src="img/money heist.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Money Heist</h5>
+                        <p class="card-text text-white">A criminal mastermind who goes by "The Professor" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. To help him carry out the ambitious plan, he recruits eight people with certain abilities and 
+                            who have ...
+                        </p>
+                        <a href="" class="btn btn-outline-danger">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <div class="card-body">
+                        <img src="img/cobra kai.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title text-danger">Cobra Kai</h5>
+                        <p class="card-text text-white">AThirty four years after events of the 1984 All Valley Karate Tournament, a down-and-out Johnny Lawrence seeks redemption by reopening the infamous Cobra Kai dojo, reigniting his rivalry with a now successful Daniel LaRusso.
+                        </p>
+                        <a href="" class="btn btn-outline-danger">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <div class="card-body">
+                        <img src="img/peaky blinders.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title text-danger">Peaky Blinders</h5>
+                        <p class="card-text text-white">Britain is a mixture of despair and hedonism in 1919 in the aftermath of the Great War. Returning soldiers, newly minted revolutions and criminal gangs are fighting for survival in a nation rocked by economic upheaval. One of the most powerful gangs of the time is the Peaky Blinders, run by returning war hero Thomas Shelby and his family.
+                        </p>
+                        <a href="" class="btn btn-outline-danger">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col-->
+             <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <div class="card-body">
+                        <img src="img/designated survivor.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title text-danger">Designated Survivor</h5>
+                        <p class="card-text text-white">As a lower-level cabinet member, Tom Kirkman never imagined something would happen that would catapult him to the oval office. When a devastating attack on the night of the State of the Union address claims the lives of the president and most of the Cabinet, the Housing and Urban Development secretary
+                        </p>
+                        <a href="" class="btn btn-outline-danger">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col-->
+        </div>
+    </div>
+    <!-- End of Container -->
+    <div class="container-fluid bg-white text-dark p-2">
+        <h5>Copyright Netflix 2023</h5>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

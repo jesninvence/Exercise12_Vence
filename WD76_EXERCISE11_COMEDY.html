@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Comedy</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+        <!-- You can add fixed-top, fixed-bottom, sticky-top, sticky-bottom -->
+        <div class="container-fluid">
+            <!-- Navigation Title-->
+            
+            <a class="navbar-brand text-danger" href="">
+                Netflix
+            </a>
+            <!-- Navigation Title -->
+            <!-- Navigation Button-->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Button -->
+
+            <!-- Navigation List -->
+            <div class="collapse navbar-collapse" id="navigationExercise10">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownSample" data-bs-toggle="dropdown">Movies</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="" class="dropdown-item">Action</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE11_HORROR.html" class="dropdown-item">Horror</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE10_VENCE.html" class="dropdown-item">Comedy</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE11_SERIES.html" class="dropdown-item">Series</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">K-Drama</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Kids</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navigation List -->
+        </div>
+    </nav>
+
+
+    <div id="carouselSample" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators-->
+        <div class="carousel-indicators">
+            <buttn  data-bs-target="#carouselSample" data-bs-slide-to="0" class="active">
+
+            </buttn>
+            <buttn  data-bs-target="#carouselSample" data-bs-slide-to="1">
+
+            </buttn>
+            <buttn  data-bs-target="#carouselSample" data-bs-slide-to="2">
+
+            </buttn>
+            <!-- in programing we always count starting from 0 -->
+            <!-- data-bs-slide-to refers to the image that it will redirect -->
+            <!-- class active will be put in the active slide -->
+        </div>
+        <!-- Carousel indicators-->
+        <!-- carousel body -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/n10.gif" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Explore</h3>
+                    <p>Wrath of Titans & Pirates of the Caribbean</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/n11.gif" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>WATCH ANYWHERE</h3>
+                    <p>WATCH ANYTIME</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/n9.gif" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Series</h3>
+                    <p>Queen's Gambit & Money Heist</p>
+                </div>
+            </div>
+        </div>
+        <!-- It is important to set which carousel item is active -->
+        <!-- carousel body -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <div class="container my-5">
+        <!-- mx - padding for left and right -->
+        <!-- my - padding for top and bottom -->
+        <h1 class="text-danger">Comedy</h1>
+        <br/>
+        <div class="row g-3">
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <img src="img/irishman.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The Irishman</h5>
+                        <p class="card-text text-white">In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to 
+                            become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime.
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <img src="img/x2.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Extraction 2</h5>
+                        <p class="card-text text-white">Back from the brink of death, commando Tyler Rake embarks on a dangerous mission to save a ruthless gangster's imprisoned family.
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <img src="img/p2.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Project Power</h5>
+                        <p class="card-text text-white">OA former soldier teams up with a cop to find the source behind a dangerous pill that provides temporary, unpredictable superpowers.
+                        </p>
+                        <a href="" class="btn btn-outline-danger">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <div class="card-body">
+                        <img src="img/mine.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title text-danger">Armie Hammer Mine</h5>
+                        <p class="card-text text-white">A US Marine sniper becomes trapped in the desert after standing on a landmine. In order to survive he must single-handedly fight off the enemy while waiting more than two days for a convoy to rescue him.
+                        </p>
+                        <a href="" class="btn btn-outline-danger">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <div class="card-body">
+                        <img src="img/g2.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title text-danger">The Gray Man</h5>
+                        <p class="card-text text-white">When the CIA's top asset -- his identity known to no one -- uncovers agency secrets, he triggers a global hunt by assassins set loose by his ex-colleague.
+                        </p>
+                        <a href="" class="btn btn-outline-danger">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col-->
+             <div class="col-4">
+                <div class="card bg-dark h-100">
+                    <div class="card-body">
+                        <img src="img/last.jpg" class="card-img-top" alt="">
+                        <h5 class="card-title text-danger">IO Last on Earth</h5>
+                        <p class="card-text text-white">In a post-apocalyptic time, the earth has been rendered toxic, and most of humanity has abandoned the planet and colonised one of Jupiter's moons, IO. But young scientist Sam Walden has stayed behind and dedicated herself to finding a way for human beings to survive on Earth.
+                        </p>
+                        <a href="" class="btn btn-outline-danger">Learn More</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col-->
+        </div>
+    </div>
+    <!-- End of Container -->
+    <div class="container-fluid bg-white text-dark p-2">
+        <h5>Copyright Netflix 2023</h5>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

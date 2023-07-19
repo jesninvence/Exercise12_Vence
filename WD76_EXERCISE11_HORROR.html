@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Horror</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+        <!-- You can add fixed-top, fixed-bottom, sticky-top, sticky-bottom -->
+        <div class="container-fluid">
+            <!-- Navigation Title-->
+            
+            <a class="navbar-brand text-danger" href="">
+                Netflix
+            </a>
+            <!-- Navigation Title -->
+            <!-- Navigation Button-->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation Button -->
+
+            <!-- Navigation List -->
+            <div class="collapse navbar-collapse" id="navigationExercise10">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownSample" data-bs-toggle="dropdown">Movies</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="WD76_EXERCISE11_ACTION.html" class="dropdown-item">Action</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE11_HORROR.html" class="dropdown-item">Horror</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE11_COMEDY.html" class="dropdown-item">Comedy</a>
+                            </li>
+                            <li>
+                                <a href="WD76_EXERCISE11_SERIES.html" class="dropdown-item">Series</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">K-Drama</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Kids</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="WD76_EXERCISE11_CONTACT.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="WD76_EXERCISE11_ABOUTUS.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Navigation List -->
+        </div>
+    </nav>
+
+
+    <div id="carouselSample" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators-->
+        <div class="carousel-indicators">
+            <buttn  data-bs-target="#carouselSample" data-bs-slide-to="0" class="active">
+
+            </buttn>
+            <buttn  data-bs-target="#carouselSample" data-bs-slide-to="1">
+
+            </buttn>
+            <buttn  data-bs-target="#carouselSample" data-bs-slide-to="2">
+
+            </buttn>
+            <!-- in programing we always count starting from 0 -->
+            <!-- data-bs-slide-to refers to the image that it will redirect -->
+            <!-- class active will be put in the active slide -->
+        </div>
+        <!-- Carousel indicators-->
+        <!-- carousel body -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/conjuring.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Explore</h3>
+                    <p>Wrath of Titans & Pirates of the Caribbean</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/annabelle.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>WATCH ANYWHERE</h3>
+                    <p>WATCH ANYTIME</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/invitation.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Series</h3>
+                    <p>Queen's Gambit & Money Heist</p>
+                </div>
+            </div>
+        </div>
+        <!-- It is important to set which carousel item is active -->
+        <!-- carousel body -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <div class="container my-5">
+        <!-- mx - padding for left and right -->
+        <!-- my - padding for top and bottom -->
+        <h1 class="text-danger">Horror</h1>
+        <br/>
+        <div class="row g-3">
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/conjuring.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The Conjuring</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 3h 59m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/annabelle.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Annabelle</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 3h 59m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/invitation.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The Invitation</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 45m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/choose.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Choose or Die</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 45m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/8th night.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The 8th Night</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 55m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/goedam.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Geodam</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 2h 20m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+             <!-- Start of Col -->
+             <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/conjuring.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The Conjuring</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 3h 59m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/annabelle.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Annabelle</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 3h 59m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/invitation.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The Invitation</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 45m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/choose.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Choose or Die</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 45m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/8th night.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The 8th Night</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 55m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/goedam.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Geodam</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 2h 20m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+             <!-- Start of Col -->
+             <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/conjuring.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The Conjuring</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 3h 59m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/annabelle.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Annabelle</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 3h 59m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/invitation.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The Invitation</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 45m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/choose.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Choose or Die</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 45m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/8th night.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">The 8th Night</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 1h 55m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+            <!-- End of Col -->
+             <!-- Start of Col -->
+            <div class="col-md-2">
+                <div class="card bg-dark h-100">
+                    <img src="img/goedam.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Geodam</h5>
+                        <p class="card-text text-white">
+                            <i class="fa-solid fa-tv"></i> 2h 20m
+                        </p>
+                        <a class="btn btn-outline-danger" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-solid fa-circle-play"></i> Play</a>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Container -->
+    <div class="container-fluid bg-white text-dark p-2">
+        <h5>Copyright Netflix 2023</h5>
+    </div>
+    <!-- Modals -->
+    <div class="modal fade" id="sampleModal1">
+        <div class="modal-dialog modal-xl">
+            <!-- Modal size, modal-xl, modal-fullscreen, modal-lg, modal-sm -->
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">  
+                    <h5 class="modal-title text-danger"><i class="fa-solid fa-triangle-exclamation"></i> Error Code: D7361-1253</h5>
+                </div>
+                <!-- Modal Header -->
+                <div class="modal-body">
+                    <img src="img/error.jpg" class="img-fluid" alt="">
+                    <h3>Error!</h3>
+                    <p>Check your internet connection. Disconnect your mobile device, TV, or computer, then reconnect. Sign out of your Netflix account and sign in again or reinstall Netflix app. Check your account settings.</p>
+                </div>
+                <!-- Modal Footer-->
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                    <!-- data-bs-dismiss -> for removing modal-->
+                </div>
+                <!-- Modal Footer-->
+            </div>  
+        </div>
+    </div>
+    <!-- End of 1st Modal -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
